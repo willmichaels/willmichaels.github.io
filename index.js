@@ -1,1 +1,1 @@
-alert("Will Michaels site coming soon.");
+alert("coming soon);
