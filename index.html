@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="index.css">
-
+    <script type="text/javascript" src="index.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
@@ -18,10 +18,16 @@
 <body>
 
 <section>
-    <div id="bio" align="left">
-     <h1>
-        Will Michaels
-    </h1>
+    <div class="bio" align="left">
+        <body onmousedown="isKeyPressed(event)">
+             <h1>
+                Will Michaels
+            </h1>
+            <p>
+                Stanford, CA
+            </p>
+    <p id="shift"></p>
+    </body>
     <p>
         <a class="highlight" href="mailto:willmichaels210@gmail.com"> willmichaels210@gmail.com</a>
     </p>

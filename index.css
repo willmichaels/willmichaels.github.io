@@ -26,6 +26,15 @@ a:active {
   column-width: 50px;
 }
 
+.bio p {
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+.bio h1 {
+  margin: 0px;
+}
+
 p.reviewbody {
   margin-left: auto;
   margin-right: auto;
