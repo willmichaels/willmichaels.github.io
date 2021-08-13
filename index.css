@@ -1,76 +1,265 @@
-a:link {
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 1;
+  padding: 0;
+  font-size: 11pt;
+  border-top: solid .6em #3b4ce2;
+  border-bottom: solid 0.4em #3b4ce2;
+  color: #222;
+  background-color: #fff8e4;
+}
+
+p, li, dd {
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  max-width: 80%;
+  display: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+  content: open-quote;
+}
+
+q:after {
+  content: close-quote;
+}
+
+strong a {
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+  font-weight: lighter;
+}
+
+strong a:visited {
+  color: black;
+}
+
+a {
   color: blue;
-  background-color: transparent;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+  color: red;
   text-decoration: none;
 }
 
 a:visited {
-  color: blue;
-  background-color: transparent;
+    color: darkgray;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited:hover {
+  color: #77C;
+}
+
+#header {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border-bottom: 1px dashed black;
+  overflow: hidden;
+  margin-bottom: 5em;
+}
+
+#header a {
+  color: black;
+}
+
+#header canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#header div {
+  position: relative;
+  z-index: 2;
+  font-variant: small-caps;
+  font-family: Luminari, sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 100;
+  
+  display: inline-block;
+  float: left;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1em;
+  height: 1em;
+  white-space: nowrap;
+
+  width: 100%;
+  text-align: center;
+}
+
+#header div a {
+  transition: text-shadow 0.2s ease;
+  text-shadow: 0 0 0.2em rgba(255, 0, 0, 0);
+}
+#header div a:hover {
+  transition: text-shadow 0.2s ease;
+  text-shadow: 0 0 0.2em rgba(255, 0, 0, 1);
+}
+
+#header div a, #header div a:visited, #footer a, #footer a:visited {
   text-decoration: none;
 }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+#header div:hover {
+  cursor: pointer;
 }
 
-a:active {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+h1 {
+  margin-bottom: 0.1em;
+  font-size: 1.5em;
+  padding-bottom: 0.1em;
 }
 
-.adder #bio{
-  column-width: 50px;
+h2, h3 {
+  font-size: 1.2em;
 }
 
-.bio p {
-  padding-bottom: 5px;
-  margin: 0px;
+h4 {
+  margin-top: 1em;
+  margin-bottom: 2em;
+  font-size: 0.8em;
+  font-weight: normal;
+  font-family: sans-serif;
 }
 
-.bio h1 {
-  margin: 0px;
+.clearer {
+  clear: both;
 }
 
-p.reviewbody {
+#postcontent h1:first-child, #postcontent h4 {
+  text-align: center;
+}
+
+#postcontent h4 {
+    margin-bottom: 4em;
+}
+
+#footer {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 0.6em;
+  margin-top: 5em;
+  color: gray;
+  border-top: 1px dashed black;
+}
+#footer div {
+  max-width: 50em;
   margin-left: auto;
   margin-right: auto;
-  width: 60em
 }
 
-.sidebar {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 180px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 50; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sidebar a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  display: block;
-}
-.sidebar h2 {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
+@media screen and (min-width: 500px) {
 
 }
 
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: #f1f1f1;
+#footer ul {
+  margin-top: 0;
+}
+#footer a, #footer a:visited {
+  color: gray;
+}
+#footer a:hover {
+  color: red;
+}
+#footer div ul li {
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid; /* IE 10+ */
+  list-style: none !important;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: lighter;
+  font-family: sans-serif;
+}
+
+.centered, #postlist {
+  padding: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  max-width: 45em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#postlist p {
+    margin-bottom: 2em;
+    text-indent: 0;
+    color: #666;
+    font-size: 0.8em;
+}
+
+strong a {
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+hr {
+  width: 2em;
+  border: none;
+  height: 0;
+  background-color: gray;
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+hr:after {
+    content: "\2767"; /* &#10087; a fleuron */
+    display: block;
+    text-align: center;
+    position: relative; top: -0.7em;
+}
+
+pre {
+    overflow-x: auto;
+    margin: 2em;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+li p {
+    display: inline;
+}
+
+.sc {
+    font-variant: small-caps;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
 }
