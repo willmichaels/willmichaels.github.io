@@ -62,13 +62,13 @@ a:active {
 }
 
 a:visited {
-    color: darkgray;
+    color: blue;
     background-color: transparent;
     text-decoration: none;
 }
   
 a:visited:hover {
-  color: #77C;
+  color: red;
 }
 
 #header {
