@@ -98,7 +98,7 @@ a:visited:hover {
   font-weight: 100;
   
   display: inline-block;
-  float: left;
+  float: none;
   padding-top: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -175,6 +175,20 @@ h4 {
 
 }
 
+.container {
+  border: 1px solid black;
+}
+
+.container > div {
+  display: block;
+  width: 20%;
+  padding: 15px;
+  max-width: 250px;
+  min-width: 200px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
 #footer ul {
   margin-top: 0;
 }
@@ -238,6 +252,18 @@ hr:after {
     position: relative; top: -0.7em;
 }
 
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  flex: 40%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
 pre {
     overflow-x: auto;
     margin: 2em;
@@ -255,11 +281,14 @@ li p {
     font-variant: small-caps;
 }
 
-table {
-  width: 100%;
+table, th, td {
+  border:1px solid black;
+  width: 40%;
+  text-align: left;
+  margin-top: 10px;
 }
 
 th {
   text-align: left;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid black;
 }
