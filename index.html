@@ -12,185 +12,149 @@
     <link rel="stylesheet" href="index.css">
     <script type="text/javascript" src="index.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt" rel="stylesheet">
 
 </head>
 
 <body>
 
 <section>
-    <div class="bio" align="left">
-        <body onmousedown="isKeyPressed(event)">
-             <h1>
-                Will Michaels
-            </h1>
-            <p>
-                Stanford, CA
-            </p>
-    <p id="shift"></p>
+    <body onmousedown="isKeyPressed(event)" align="center">
+        <h1>
+            Will Michaels
+        </h1>
     </body>
     <p>
-        <a class="highlight" href="mailto:willmichaels210@gmail.com"> willmichaels210@gmail.com</a>
+        <a id="email" class="highlight" href="mailto:willmichaels210@gmail.com"> willmichaels210@gmail.com</a>
     </p>
-    <img src="profile.jpeg" width="250">
+    <div class="bio" align="left">
     <p>
-        I am currently an electrical engineering student at Stanford. I am interested in semiconductor device physics, quantum computing, and neuromorphic computing. This summer, I am investigating the stability and degradation mechanisms of GaN transistors and power amplifiers at <a class="highlight" href="https://www.macom.com/" target="_blank">MACOM</a>. During the school year, I work at the <a class="highlight" href="https://congrevelab.stanford.edu/" target = "_blank">Congreve Lab</a>, performing experiments on perovskite LEDs to better understand their efficiency and stability. Previously, I designed optical systems at <a class="highlight" href="https://www6.slac.stanford.edu/" target="_blank">SLAC</a> for 
+        <img alt="Will Michaels" title="Will" src="nature-profile.jpeg" style="float: left; width: 14em; margin-right: .7em; border-radius: 0.8em; margin-bottom: .3em;">
+
+        I am currently an electrical engineering student at Stanford interested in semiconductor device physics, quantum computing, and neuromorphic computing. This summer, I am investigating the stability and degradation mechanisms of GaN transistors at <a class="highlight" href="https://www.macom.com/" target="_blank">MACOM</a>. During the school year, I work at the <a class="highlight" href="https://congrevelab.stanford.edu/" target = "_blank">Congreve Lab</a>, performing experiments on perovskite LEDs to better understand their efficiency and stability. Previously, I designed optical systems at <a class="highlight" href="https://www6.slac.stanford.edu/" target="_blank">SLAC</a> for 
         <a class="highlight" href="https://news.fnal.gov/2019/09/magis-100-atoms-in-free-fall-to-probe-dark-matter-gravity-and-quantum-science/" target="_blank">MAGIS-100</a>, an atom interferometry experiment designed to detect dark matter and gravitational waves. In the past, I created a website about predicting the outcome of sporting events using statistical modeling. <a class="highlight" href="SSI_Summary.pdf" target="_blank">Here</a> is a basic summary of how the model works and what tools I used to create it. 
 
     </p>
-    <p>
-        Please feel free to email me if you have questions or comments on anything written here!
-    </p>
     </div>
-    <div>
-        <div id="projects" align="left">
-            <h1>
+    <div class="outer" align="center">
+        <div class="inner" align="center">
+            <h2>
                 Blog
-            </h1>
+            </h2>    
             <p>
                 This blog is just a series of book reviews for now, but I'm going to expand it with entries on topics and ideas I have been interested in recently. Stay tuned!
             </p>
-            <h2>
-                <a href="https://www.amazon.com/Black-Flags-Blue-Waters-Notorious/dp/1631492101" target="_blank">
+            <a href="swashbuckling.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    Swashbuckling Stories
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.amazon.com/Black-Flags-Blue-Waters-Notorious/dp/1631492101" target="_blank">
                     <i>Black Flags, Blue Waters</i> 
                 </a>
                 By Eric Jay Dolin
-            </h2>
-            <p> 
-                Pirate stories are unique legends because they speak to the desire for adventure and risk that makes us human. The characters in pirate stories often combine grand journeys with crime, mischief, and lust for power. For most of my life I thought of pirate stories as unlikely tales not to be given further investigation. I knew pirates existed, but I didn’t know the extent or reach of their influence. <i>Black Flags, Blue Waters</i> is a fun book to read because it is informational while also sharing stories in a way that maintains the mysticism of piracy. 
             </p>
-            <p>
-                One of the most surprising aspects of the pirate story I learned was the origin of pirates in North America. While pirates were eventually expelled from the region with violence, pirates were accepted by the people in the area during the infancy of the British colonies. They were able to offer goods at lower prices than those shipped from Europe, and were therefore embraced by the colonists. 
+            <p id="date">
+                January 13, 2022
             </p>
-            <p>
-                It is anecdotes and surprises like these that make <i>Black Flags, Blue Waters</i> such an engaging read. Characters such as Black Bart and Blackbeard are portrayed not merely as bloodthirsty criminals (though they sometimes were) but dynamic people who existed within the ebb and flow of a rapidly changing world. Many of the stories are still shrouded in mystery, however, due to the sparse historical record surrounding piracy. In some sense this makes the story more enjoyable, as filling in the gaps and using one's imagination can be gratifying. 
-            </p>
-            <p>
-                For me, reading <i>Black Flags, Blue Waters</i> was an amusing way to engage with stories I have heard since I was a child. It also dives deeply into a corner of history that is not often discussed. I find that books about niche topics such as these are often the most memorable and noteworthy. 
-            </p>
-
-            <h2>
-                <a href="https://www.google.com/books/edition/Birth_of_a_Theorem/iP-cBAAAQBAJ?hl=en&gbpv=1" target="_blank">
+            <a href="what-does.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    What Does a Mathematician Actually Do?
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.google.com/books/edition/Birth_of_a_Theorem/iP-cBAAAQBAJ?hl=en&gbpv=1" target="_blank">
                     <i>Birth of a Theorem</i> 
                 </a>
                 By Cédric Villani
-            </h2>
-            <p> 
-                Being a mathematician is a foreign experience to most since those doing math research seem to work alone on complex topics with little grounding in everyday life. <i>Birth of a Theorem</i> shows the reader that math research is a field intrinsically tied to the human experience. Those looking to expand our knowledge of math have to grapple with many of the same obstacles most people do in their working lives. 
             </p>
-            <p>
-                <i>Birth of a Theorem</i> follows the author through the journey involving his most impactful work that eventually won him the Fields Medal. Obviously much of his time was spent thinking about math, but the author also had to contend with more practical issues such as communicating with collaborators, traveling, and his family. Seeing the work of a mathematician from this perspective makes the field seem more approachable and less intimidating. The author shows that even the best mathematicians get stuck in their work and reach dead ends. It is rare for a mathematician to follow a straight path from an idea to its execution. 
+                <p id="date">
+                September 6, 2021
             </p>
-            <p>
-                Another interesting idea explored in <i>Birth of a Theorem</i> is the fame and prestige attached to an award such as the Fields Medal. Despite what many wish for the field, research mathematics is still plagued by greed for things such as status and notoriety. The author explains such issues from an insider perspective and shows that being a mathematician is often about much more than one's ability to do math. One must consider how, when, and with whom they share their ideas. 
-            </p>
-            <p>
-                <i>Birth of a Theorem</i> is a well written book from a perspective that is not often heard from. It is rare to find a mathematician who is so prolific and can share his experience so clearly. Cédric Villani is able to tell a compelling story without sacrificing accuracy or detail. I would recommend it to anyone interested in math or the experience of mathematicians.
-            </p>
-            <h2>
-                <a href="https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/ref=sr_1_1?dchild=1&keywords=9780807014271&qid=1625584965&s=books&sr=1-1" target="_blank">
+            <a href="how-to.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    How to Find Meaning in a Senseless World
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.amazon.com/Mans-Search-Meaning-Viktor-Frankl/dp/0807014273/ref=sr_1_1?dchild=1&keywords=9780807014271&qid=1625584965&s=books&sr=1-1" target="_blank">
                     <i>Man's Search for Meaning</i> 
-                </a> 
+                </a>
                 By Viktor Frankl
-            </h2>
-            <p> 
-                One easily ignored aspect of history is the personal experience of those who endured major events. For me, <i>Man's Search for Meaning</i> filled this gap for the Holocaust and taught me a very valuable lesson: one can always control how they react to their circumstances. This lesson has nearly infinite applications and caused me to reevaluate how I react to situations. I frequently revisit passages in the book that stood out to me because I often find myself applying them to new situations in my life. 
             </p>
-            <p>
-                One of the most powerful passages of the book came when the author was explaining how one can control how they react to their environment in the midst of death and destruction. He said that one technique he used was to have conversations with his wife in his head. He was separated from his wife while in the concentration camp and did not know if she was alive. Thinking about his wife allowed him to shift his experience for a fleeting moment to something familiar and happy. This enabled him to preserve his will and not succumb to his demoralizing surroundings. Reading this passage made me realize that I could apply such techniques to my own life. While it takes considerable focus and perseverance, attempting to shift one's mind to a happier state while stressed can be very impactful. 
+                <p id="date">
+                July 6, 2021
             </p>
-            <p>
-                Another lesson that was clear in <i>Man's Search for Meaning</i> was this: "No man should judge unless he asks himself in absolute honesty whether in a similar situation he might not have done the same." This quote was important for me because it made me realize that even the most honest and kind people can be reduced to terrible acts due to their circumstances. The author gave examples of prisoners stealing from the weakest and those on the brink of death. The fact that these people were ordinary made me realize that every action must be judged within the context in which it was taken. This paradigm shift is also difficult to implement in real life, but makes for a more empathetic and optimistic view of the world. 
-            </p>
-            <p>
-                In sum, <i>Man's Search for Meaning</i> is a fantastic book that speaks about the Holocaust from a unique point of view. The author's description of how his own mindset and the mindsets of other prisoners were shaped by the concentration camps is very profound and has stuck with me ever since I read the book. 
-            </p>
-            <h2>
-                <a href="https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316" target="_blank">
+            <a href="solace.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    Solace for the Sleepy
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.amazon.com/Why-We-Sleep-Unlocking-Dreams/dp/1501144316" target="_blank">
                     <i>Why We Sleep</i> 
-                </a> 
+                </a>
                 By Matthew Walker
-            </h2>
-            <p> 
-                Some of the most interesting books I have read have been about seemingly mundane things. <i>Why We Sleep</i> is certainly such a book. I didn't read Why We Sleep out of interest in the topic but because I simply didn't have anything else to read at the time. It was a well reviewed book about a subject new to me, so I thought I would give it a shot. <i>Why We Sleep</i> ended up being truly impactful for me. It changed the way I view my habits and allowed me to change my behavior in a positive way. 
             </p>
-            <p>
-                One part of <i>Why We Sleep</i> that stood out to me was the discussion of how sleep has the ability to <a href="https://www.cdc.gov/sleep/about_sleep/chronic_disease.html" target="_blank"> prevent illness</a> and repair many parts of the body. This was intriguing to me because before reading <i>Why We Sleep</i> I believed that if I didn't have a headache or feel sick when I woke up, I had gotten enough sleep. The fact that sleep can have long term impacts on health was surprising and changed how I viewed rest. 
+                <p id="date">
+                June 27, 2021
             </p>
-            <p>
-                Another chapter I found interesting was entitled 'Too Extreme for the Guiness Book of World Records.' This chapter described the extent to which people, in the western world in particular, are sleep deprived. Due to busy schedules and inconvenient school and work hours, many people get between around 6 hours of sleep every night. While this might be considered a "normal" amount, it still has large impacts on health. Learning about the extent and severity of sleep deprivation piqued my interest because I had not heard much about it previously. Although somewhat unrelated, it is interesting to note that <a href="https://www.nhlbi.nih.gov/news/2020/studies-find-people-are-sleeping-more-during-covid-19-pandemic" target="_blank"> people have been sleeping more during the COVID pandemic</a>, but this trend is unlikely to continue. 
-            </p>
-            <p>
-                In sum, the best books are those that present the reader with new information that causes them to reevaluate their beliefs and possibly change their mind. For me, <i>Why We Sleep</i> did both of these things. It taught me that something as mundane and habitual as sleep is very important and should not be overlooked. It showed me that severe consequences are not always obvious and that forming new habits can have a huge impact. 
-            </p>
-            <h2>
-                <a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" target="_blank">
+            <a href="bits.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    Bits > Bullets
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.amazon.com/Weapons-Math-Destruction-Increases-Inequality/dp/0553418815" target="_blank">
                     <i>Weapons of Math Destruction</i> 
-                </a> 
+                </a>
                 By Cathy O'Neil
-            </h2>
-            <p> 
-                <i>Weapons of Math Destruction</i> explains the dangers of outsourcing jobs to poorly trained algorithms that do not use feedback to improve themselves. The book explains that most of the issues occur when the application area is poorly understood and a company or government agency uses an algorithm in order to cut costs. 
             </p>
-            <p>
-                One of the most interesting examples of an algorithm impacting the real world involves the <a href="https://www.usnews.com/best-colleges/rankings/national-universities" target="_blank"> US News college rankings</a>. This list ranks universities in the United States and the rest of the world. The rankings are based on a variety of measures ranging from alumni gifts to acceptance rate. The list has become very popular and many prospective college students rely on it during their college search. As a result, it has become important for universities to increase their standing in the US News ranking in order to attract students. The problem is that the factors considered by US News do not always coincide with educational outcomes. As a result, schools attempting to increase their ranking have to do so by <a href="https://www.politico.com/interactives/2017/top-college-rankings-list-2017-us-news-investigation/" target="_blank"> accepting more legacy students</a>, rather than trying to educate middle and low income students. This creates a system where universities prioritize the wrong areas while continually increasing their cost of attendance to offset their spending.  
+                <p id="date">
+                June 22, 2021
             </p>
-            <p>
-                The US News university ranking list is considered a weapon of math destruction (WMD) because it is a poorly thought out mathematical formula that has negative real world impacts. This is the case because the parameters of the model are arbitrary and are not updated in response to problems. This creates a feedback loop that reinforces unhelpful behavior. Weapons of Math Destruction gives many similar examples on topics ranging from policing to credit scores. 
-            </p>
-            <p>
-                Before reading Weapons of Math Destruction I did not know how pervasive flawed algorithms are. Reading the various case studies made me realize that those creating computational systems should always keep in mind the impact their work will have on others. Many of the worst consequences discussed in the book could have been avoided if those developing the algorithms had more foresight in their work. The impacts could have also been minimized if the creators of the algorithms would have constantly updated their systems, rather than leaving them static. Overall, Weapons of Math Destruction taught me how complex and destructive the effects of an engineering project can be.
-            </p>
-            <h2>
-                <a href="https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834/ref=asc_df_0198739834/?tag=hyprod-20&linkCode=df0&hvadid=312114711253&hvpos=&hvnetw=g&hvrand=16063813461234975922&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016213&hvtargid=pla-435510817184&psc=1" target="_blank">
+            <a href="unintended.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    Unintended Consequences
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834/ref=asc_df_0198739834/?tag=hyprod-20&linkCode=df0&hvadid=312114711253&hvpos=&hvnetw=g&hvrand=16063813461234975922&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9016213&hvtargid=pla-435510817184&psc=1" target="_blank">
                     <i>Superintelligence</i> 
-                </a> 
+                </a>
                 By Nick Bostrom
-            </h2>
-            <p> 
-                I read <i>Superintelligence</i> at a time in my life when I knew that I was interested in math and science, but I didn't know how those things translated to the real world. Teachers told me that I should become an engineer, but I didn't really know what such a career would entail. After reading <i>Superintelligence</i> I realized the importance of engineering and computer science. Reading about the potential power of artificial intelligence and how it could change the world so quickly made me realize that math and science are not limited to the classroom and their applications can be very exciting. 
             </p>
-            <p>
-                I can say with confidence that I would not have been as likely to become interested in computer science if I had not read <i>Superintelligence</i> when I did. I knew computer science was relevant, but I didn't realize the depth of the impact it could have. Reading about possible scenarios showed me that a world with sufficiently advanced artificial intelligence would be unrecognizable to people today. The ability for intelligent machines to outclass humans in almost every domain is scary, yet inspiring. Even though I didn't understand many of the concepts at the time, simply being exposed to topics such as <a href="https://en.wikipedia.org/wiki/Self-replicating_spacecraft#Von_Neumann_probes" target="_blank"> Von Neumann probes</a> and the <a href="https://en.wikipedia.org/wiki/AI_control_problem" target="_blank"> control problem</a> expanded my curiosity and ability to think about engineering problems. 
+                <p id="date">
+                June 11, 2021
             </p>
-            <p>
-                Superintelligence is one of the most impactful books I have read. The topics within it have stayed with me for years and I still revisit some chapters frequently because they are so engaging. I often recommend this book to anyone interested in artificial intelligence, but I think that the scenarios described in Superintelligence will be so relevant in the next decade that everyone should read it. 
+            <a href="antarctic.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    Antarctic Adventure!
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.amazon.com/Endurance-Shackletons-Incredible-Alfred-Lansing/dp/0465062881" target="_blank">
+                    <i>Shackleton's Incredible Voyage</i> 
+                </a>
+                By Alfred Lansing
             </p>
-                <h2>
-                    <a href="https://www.amazon.com/Endurance-Shackletons-Incredible-Alfred-Lansing/dp/0465062881" target="_blank">
-                        <i>Shackleton's Incredible Voyage</i> 
-                    </a> 
-                    By Alfred Lansing
-                </h2>
-                <p> 
-                    <i>Shackleton's Incredible Voyage</i> tells a tale so fascinating that it is hard to believe it actually happened. Shackleton and his men were supposed to cross the Antarctic continent in 1914 before their ship got stuck in the ice and was crushed by the resulting pressure. The already extraordinary story is enhanced with suspense and character development that makes the reader root for some (but maybe not all) of the crew. 
-                </p>
-                <p>
-                    My favorite part of the book is the description of the journey Shackleton and a few of his men took to the nearest whaling station in order to rescue the rest of the crew. The journey was filled with treacherous conditions on both sea and land. The excitement that builds in these chapters is engaging even if the reader knows how the tale ends. It is truly remarkable to think that Shackleton navigated the <a href="https://youtu.be/FPmtQAIfLBQ?t=57" target="_blank"> Drake Passage</a> in a tiny sailboat without enough food and water and after traveling for months in the Antarctic. 
-                </p>
-                <p>
-                    The journey that Shackleton planned was not <a href="https://en.wikipedia.org/wiki/Commonwealth_Trans-Antarctic_Expedition" target="_blank"> completed</a>  for another four decades. The party that ended up carrying it out successfully used tractors and other modern technology that Shackleton did not have access to. The second successful expedition of its kind was not carried out until 1981. This shows how massively ambitious the trip was to begin with and how harsh Antarctic conditions really are. 
-                </p>
-                <p>
-                    Overall, Shackleton's Incredible Voyage reminded me of how human beings are naturally inclined to explore and discover new environments. It was inspiring to read about how a group of people volunteered to partake in such a journey not for fame and fortune, but simply for the adventure. Reading about the journey made me think about how I can apply such lessons to my own life, and possibly become just a little bit better at exploring the world around me. I would highly recommend Shackleton's Incredible Voyage to anyone interested in Antarctica or looking for an interesting expedition story. 
-                </p>
-            <h2>
-                <a href="https://www.penguinrandomhouse.com/books/624372/a-burning-by-megha-majumdar/" target="_blank">
+                <p id="date">
+                June 1, 2021
+            </p>
+            <a href="facebook.html" target="_blank" style="display: inline-block; text-decoration: none; color: black;">
+                <h4>
+                    Facebook != Factbook
+                </h4>
+            </a>
+            <p id="subtitle">
+                Review of <a href="https://www.penguinrandomhouse.com/books/624372/a-burning-by-megha-majumdar/" target="_blank">
                     <i>A Burning</i> 
-                </a> 
+                </a>
                 By Megha Majumdar
-            </h2>
-            <p> 
-                <i>A Burning</i> is a compelling book for a few reasons. It fuses political themes with an engaging story and idiosyncratic characters. I appreciated the focus on the unintended consequences of a powerful platform like Facebook and how it can create an explosive type of mob rule that is not possible without social media. Putting a personal story to such a new problem is powerful in making the issue stick in the reader's mind. The thread in the story that I thought was most well portrayed was the need of the people to have an explanation for the attack, even if it was wrong. The people had an extreme discomfort with the idea of the attack being unexplained. Therefore, they grasped at any ounce of evidence that would implicate Jivan. The exploration of this dynamic shows the power of such a demand for justice and how laws and customs can be bent in such situations. 
             </p>
-            <p>
-                A Burning also stressed the issue of <a href="https://www.forbes.com/sites/ronakdesai/2020/03/03/india-failing-to-make-progress-in-its-campaign-against-corruption/?sh=342ce1dee127" target="_blank">political corruption in India</a>  to me. PT Sir's journey shows that even those with good intentions can get sucked in by the allure of power and influence. His path showed how one looking to get ahead in a corrupt system has to erode their morals slowly. This results in cumulative changes that are only apparent after a long time. 
-            </p>
-            <p>
-                While the conclusion of the novel was unsatisfying and sad, I think it was the only fitting way to end the story. A surprise triumph or victory would lessen the emphasis on the issues discussed in the book and leave the reader less worried. Majumdar leaves the reader with a bad feeling, and this makes the story all the more impactful. 
-            </p>
-            <p>
-                Overall I would recommend <i>A Burning</i> to anyone looking to understand the psychology of social media better and how this has implications for things like law and politics. In many ways it highlighted things I already knew, but also shed light on how topics such as trans issues and the film industry or political corruption and education can intersect. 
-
+                <p id="date">
+                March 29, 2021
             </p>
         </div>
 </section>

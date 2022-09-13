@@ -1,0 +1,130 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    margin: 1;
+    padding: 0;
+    font-size: 11pt;
+    border-top: solid .6em #0645ad;
+    border-bottom: solid 0.4em #0645ad;
+    color: #222;
+    background-color: #FFFFFF;
+  }
+    
+p, li, dd {
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    margin-left: 40em;
+    margin-right: 40em;
+}
+
+#subtitle {
+    font-size: 9pt;
+    margin-top: 0em;
+}
+
+img {
+    max-width: 80%;
+    display: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+q {
+    quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+strong a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+strong a:visited {
+    color: black;
+}
+
+a {
+    color: #0645ad;
+    display: inline-block;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0645ad;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited:hover {
+    color: red;
+}
+
+h1 {
+    margin-bottom: 0.1em;
+    font-size: 1.5em;
+    padding-bottom: 0.1em;
+}
+
+h2, h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.clearer {
+    clear: both;
+}
+
+@media screen and (min-width: 500px) {
+
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.container > div {
+    display: block;
+    width: 20%;
+    padding: 15px;
+    max-width: 250px;
+    min-width: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+strong a {
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
