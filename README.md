@@ -1,2 +1,2 @@
-# willmichaels.net
+# willmichaels.com
 Will Michaels personal website
