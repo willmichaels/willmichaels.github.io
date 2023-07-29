@@ -1,15 +1,15 @@
 body {
     font-family: "Trebuchet MS", sans-serif;
-    margin: 1;
+    margin: 0;
     padding: 0;
     font-size: 11pt;
-    border-top: solid .6em #0645ad;
+    border-top: solid .4em #0645ad;
     border-bottom: solid 0.4em #0645ad;
     color: #222;
     background-color: #FFFFFF;
   }
     
-p, li, dd {
+p, li, dd, ol {
     line-height: 1.5em;
     text-rendering: optimizeLegibility;
     margin-left: auto;
@@ -20,7 +20,28 @@ p, li, dd {
 #subtitle {
     font-size: 9pt;
     margin-top: 0em;
+    margin-bottom: 0em;
 }
+
+#author-name {
+    font-size: 10.5pt;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+#header {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-bottom: 1px dashed black;
+    overflow: hidden;
+    margin-bottom: 2em;
+  }
+  
+#header canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 
 img {
     max-width: 80%;
@@ -81,9 +102,9 @@ a:visited:hover {
 }
 
 h1 {
-    margin-bottom: 0.1em;
-    font-size: 1.5em;
-    padding-bottom: 0.1em;
+    margin-bottom: 0.05em;
+    font-size: 1.6em;
+    padding-bottom: 0.05em;
 }
 
 h2, h3 {
@@ -133,3 +154,21 @@ strong a {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+
+#footnotes {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  #footnotes ol {
+    list-style: decimal;
+    padding: 0;
+  }
+
+  #footnotes li {
+    margin-bottom: 8px;
+  }
+
+  #footnotes li a {
+    text-decoration: none;
+  }
