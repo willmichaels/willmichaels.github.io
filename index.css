@@ -123,3 +123,9 @@ h4 {
   margin-bottom: 0em;
   margin-top: 0em;
 }
+
+h4:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
