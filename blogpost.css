@@ -1,0 +1,178 @@
+body {
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    margin: 0;
+    padding: 0;
+    font-size: 11pt;
+    border-top: solid .4em #0645ad;
+    border-bottom: solid 0.4em #0645ad;
+    color: #222;
+    background-color: #FFFFFF;
+  }
+    
+p, li, dd, ol {
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 37em;
+}
+
+#subtitle {
+    font-size: 9pt;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+#author-name {
+    font-size: 10.5pt;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+#header {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-bottom: 1px dashed black;
+    overflow: hidden;
+    margin-bottom: 2em;
+  }
+  
+#header canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+img {
+    max-width: 80%;
+    display: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+q {
+    quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+strong a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+strong a:visited {
+    color: black;
+}
+
+a {
+    padding:0;
+    margin-bottom:0;
+}
+
+a:link {
+    color: #0645ad;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0645ad;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+h1 {
+    margin-bottom: 0.05em;
+    font-size: 1.6em;
+    padding-top: 0em;
+    padding-bottom: 0.05em;
+    margin-top: 0em;
+}
+
+h2, h3 {
+    font-size: 1.2em;
+    text-rendering: optimizeLegibility;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 31em;
+}
+
+h4 {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.clearer {
+    clear: both;
+}
+
+@media screen and (min-width: 500px) {
+
+}
+
+.container {
+    border: 1px solid black;
+}
+
+.container > div {
+    display: block;
+    width: 20%;
+    padding: 15px;
+    max-width: 250px;
+    min-width: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+strong a {
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#footnotes {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+
+  #footnotes ol {
+    list-style: decimal;
+    padding: 0;
+  }
+
+  #footnotes li {
+    margin-bottom: 8px;
+  }
+
+  #footnotes li a {
+    text-decoration: none;
+  }
