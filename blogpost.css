@@ -16,7 +16,14 @@ p, li, dd, ol {
     padding-left: 1em;
     padding-right: 1em;
     max-width: 37em;
+}
 
+/* 
+    Makes sure that the list items are numbered on mobile
+*/
+li {
+    display: list-item;
+    list-style-position: inside;
 }
 
 #subtitle {
