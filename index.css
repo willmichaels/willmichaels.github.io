@@ -12,8 +12,8 @@ body {
 p {
   line-height: 1.5em;
   text-rendering: optimizeLegibility;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 1em;
+  margin-right: 1em;
   max-width: 45em;
   color: black;
 }
