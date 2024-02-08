@@ -53,12 +53,14 @@ li {
   }
 
 img {
-    max-width: 80%;
+    max-width: 34em;
     display: left;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
     margin-bottom: 3em;
+    object-fit: contain;
+    overflow: clip;
 }
 
 q {
@@ -186,3 +188,7 @@ strong a {
   #footnotes li a {
     text-decoration: none;
   }
+
+  .wrapper{
+    clear:both;
+}
